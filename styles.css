@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(115, 57, 170);
+}
+.container {
+    background-color: rgb(183, 147, 229);
+    font-family: 'overpass', sans-serif;
+    margin: auto;
+    width: 300px;
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: 150px;
+    
+}
+
+h1 {
+    color: wheat;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn button, img {
+    border-radius: 50%;
+    padding: 13px;
+    border: none;
+    background-color: bisque;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn button {
+    font-size: 18px;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+}
+
+.btn button:hover {
+    background-color: rgb(202, 202, 96);
+    color: azure;
+    transition: all 200ms ease-in-out;
+}   
+
+.btn button:focus {
+    background-color: burlywood;
+    color: azure;
+}
+
+.sub {
+    font-weight: 700;
+    background-color: orange;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 12px 6px 12px;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.sub:hover {
+    background-color: orange;
+    color: azure;
+}
